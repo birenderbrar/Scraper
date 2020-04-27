@@ -1,0 +1,4 @@
+welcome: "Welcome to covid data centre, please say the name of country, you want to know more about"
+out_message : "Sure, take care"
+response: "The number of cases in {{ country }} are {{ data['country'] }}"
+reprompt: "I didnt understand your answer, can you please repeat"
