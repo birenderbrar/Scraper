@@ -34,8 +34,7 @@ def start_skill():
     welcome_msg = render_template('welcome')
     reprompt = render_template('reprompt')
     return question(welcome_msg).reprompt(reprompt)
-
-# This messeage we need to edit 
+ 
 @ask.intent("YesIntent", convert={'Country': str})
 def share_data():
     data = get_all_table(soup)
